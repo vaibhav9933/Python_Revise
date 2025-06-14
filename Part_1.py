@@ -92,7 +92,37 @@ print(type(a))
 """
 
 #To take input
-
+"""
 name = input("Enter you Name:")
 print("Welcome", name)
 print(type(name),name)
+"""
+
+"""
+name = input("ENTER YOUR NAME:")
+age = input("ENTER YOUR AGE:")
+marks = input("ENTER YOUR MARKS:")
+print("WELCOME",name)
+print("age = ",age)
+print("your marks =", marks)
+"""
+
+# write a program to input 2 numbers & print their sum
+"""
+a = int(input("enter first number:"))
+b = int(input("enter second  number:"))
+sum = a + b
+print("The sum of Two numbers:", sum)
+"""
+
+# wap to input side of a squre & print area
+"""
+side = float(input("enter side:"))
+print("area=",side * side)
+"""
+# avg of two numbers
+"""
+a = float(input("enter first number:"))
+b = float(input("enter second  number:"))
+print("avg=",(a+b)/2)
+"""
