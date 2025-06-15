@@ -44,4 +44,15 @@ str = "hi, $ i am the the vaibhav$ from $"
 print(str.count("$"))"""
 
 # Conditional Statements
+"""
+age = 16
+if (age>= 18):
+    print("You can applay for licence")
+else:
+    print("you can't applay for licence") """
 
+num = 5
+if(num > 2):
+    print("Greater then 2")
+elif(num>3):
+    print("Greater then 3")
