@@ -51,8 +51,57 @@ if (age>= 18):
 else:
     print("you can't applay for licence") """
 
+"""
 num = 5
 if(num > 2):
     print("Greater then 2")
 elif(num>3):
-    print("Greater then 3")
+    print("Greater then 3") """
+
+"""
+
+marks = int(input("Enter Students marks: "))
+if(marks >= 90):
+    grade = "A"
+elif (marks >= 80 and marks < 90):
+    grade = "B"
+elif(marks >= 70  and marks < 80):
+    grade = "C"
+else:
+    grade ="D"
+print("Grade of the studnets:",grade) """
+
+
+#wap to chack if a number entered by the user is odd or even
+"""
+num = int(input("Enter the number:"))
+rem = num % 2
+if(rem == 0):
+    print("Even")
+else:
+    print("odd")"""
+
+#wap to find the grater of 3 numbers enterd by the user.
+"""
+num1 = int(input("Enter num 1:"))
+num2 = int(input("Enter num 2:"))
+num3 = int(input("Enter num 3:"))
+
+if(num1 >= num2 and num1 >= num3):
+    print("Num 1 is greater which is",num1)
+elif(num2 >= num3):
+    print("Num 2 is grater which is ",num2)
+elif(num3 >= num1 and num3 >= num2):
+    print("Num 3 is grater which is",num3)
+else:
+    print("Invalid input")"""
+
+#wwap to check if a number is a multiple of 7 or not
+
+"""
+num = int(input("Enter number"))
+if(num % 7 == 0):
+    print("Multiple of ",num)
+else:
+    print("not a multiple") """
+
